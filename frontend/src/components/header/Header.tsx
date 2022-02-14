@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => (
-      <div className="flex flex-row"> 
+      <div className="flex"> 
           <div className="">
 		Alcohol
 	  </div>
