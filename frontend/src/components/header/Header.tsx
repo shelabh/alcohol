@@ -2,15 +2,15 @@ import React from 'react';
 
 const Header = () => (
       <div className="flex flex-row"> 
-          <div>
+          <div className="">
 		Alcohol
 	  </div>
-	  <div>
-		<div>
+	  <div className="">
+		<div className="">
 			About Us
 		</div>
 	  </div>
-	  <div>
+	  <div className="">
 		<button>
 			Signup
 		</button>
