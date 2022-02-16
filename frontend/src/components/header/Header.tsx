@@ -5,9 +5,15 @@ const Header = () => (
           <div className="">
 		Alcohol
 	  </div>
-	  <div className="">
+	  <div className="flex">
 		<div className="">
 			About Us
+		</div>
+		<div className="">
+			Order
+		</div>
+		<div className="">
+			Contact Us
 		</div>
 	  </div>
 	  <div className="">
