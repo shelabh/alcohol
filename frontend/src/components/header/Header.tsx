@@ -1,20 +1,20 @@
 import React from 'react';
 
 const Header = () => (
-      <div className="flex"> 
+      <div className="flex text-white"> 
           <div className="">
 		Alcohol
 	  </div>
 	  <div className="flex">
-		<div className="">
+		<a href="#" className="">
 			About Us
-		</div>
-		<div className="">
+		</a>
+		<a href="#" className="">
 			Order
-		</div>
-		<div className="">
+		</a>
+		<a href="#" className="">
 			Contact Us
-		</div>
+		</a>
 	  </div>
 	  <div className="">
 		<button>
