@@ -1,29 +1,33 @@
 import React from 'react';
-import wine_bottle from '../images/wine_bottle.png'
-import Image from 'next/image'
+
 
 const Header = () => (
 	<div className="w-full h-full ">
-		<div className="flex w-full h-screen bg-gradient-to-br from-neutral-500 via-neutral-900 to-black justify-center pt-[10%]"> 
-			<div className="text-white">
-				<div>
-					left
+		<div className="flex  justify-center   items-center w-full h-screen bg-gradient-to-br from-neutral-500 via-neutral-900 to-black  pt-[5%]"> 
+		
+			<div className="text-white pt-11 ">
+				<div className="text-9xl  text-right ">
+					ONE
+				</div>
+				<div className=" py-9 w-[30.5%] text-right">
+					A quick way to tell if another round will be fun or a mistake	
+					
+				</div>
+				<div className="text-9xl text-right "> 
+					DRINK
 				</div>
 			</div>
 			<div className="">
-				<Image 
-					src={wine_bottle} 
-					height={738}
-					width={700}
-				
-					
-				
-				 />
+				<img src="/images/wine_bottle.png" />
 			</div>
-			<div className="text-white">
-				rigth
+			<div className="text-9xl  pt-11">
+				<div className="text-more  font-Montserrat ">
+					MORE
+				</div>
 			</div>
 		</div>
+			
+		
       </div>
 );
   
