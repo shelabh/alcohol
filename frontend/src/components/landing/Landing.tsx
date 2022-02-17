@@ -26,9 +26,9 @@ const Header = () => (
 						MORE
 					</div>
 				</div>
-				<span className="  rotate-[270deg] text-[6.5rem] absolute pt-[45%]  text-white ">
-					FEEL THE ECSTASY
-				</span>
+				<div className=" absolute ml-[23%]  w-20 ">
+					<img src="/images/FEEL_THE_ECSTASY.svg" />
+				</div>
 			</div>
 			
 			<div className="flex pt-[6.5%] px-[5%] space-x-10 ">
