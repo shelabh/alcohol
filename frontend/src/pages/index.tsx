@@ -1,6 +1,6 @@
 
-import Header from '../components/header/Header'
-import Landing from '../components/landing/Landing'
+import Header from './Header'
+import Landing from './Landing'
 
 export default function Home() {
   return (
